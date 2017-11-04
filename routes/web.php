@@ -12,5 +12,6 @@
 */
 
 Route::get('/', function () {
+    App::setLocale('de');
     return view('welcome');
 });
